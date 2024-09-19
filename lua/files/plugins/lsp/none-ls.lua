@@ -15,9 +15,9 @@ return {
     mason_null_ls.setup({
       ensure_installed = {
         "prettier", -- prettier formatter
-        "stylua", -- lua formatter
-        "black", -- python formatter
-        "pylint", -- python linter
+        -- "stylua", -- lua formatter          Removed because of Nixos
+        -- "black", -- python formatter        Removed because of Nixos
+        -- "pylint", -- python linter          Removed because of Nixos
         "eslint_d", -- js linter
       },
     })
@@ -72,3 +72,4 @@ return {
     })
   end,
 }
+
